@@ -219,15 +219,21 @@ export function render() {
         </div>
       </div>
 
-      <!-- Ad Unit 3 (Google AdSense - Below form, full width) -->
+      <!-- Victorbanner -->
       <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--space-4); margin: 0 var(--space-6); display: flex; flex-direction: column; align-items: center; overflow: hidden; width: calc(100% - 2 * var(--space-6)); box-sizing: border-box;">
         <span style="font-size: 9px; color: var(--text-tertiary); text-transform: uppercase; margin-bottom: var(--space-2); font-weight: 600;">Sponsored</span>
         <ins class="adsbygoogle"
-             style="display:block; text-align:center;"
-             data-ad-layout="in-article"
-             data-ad-format="fluid"
+             style="display:inline-block;width:728px;height:90px"
              data-ad-client="ca-pub-9747982919206794"
-             data-ad-slot="9660018119"></ins>
+             data-ad-slot="7660468324"></ins>
+        <amp-ad
+             layout="fixed"
+             width="728"
+             height="90"
+             type="adsense"
+             data-ad-client="ca-pub-9747982919206794"
+             data-ad-slot="7660468324">
+        </amp-ad>
       </div>
 
       <!-- Footer with visible admin login link -->
