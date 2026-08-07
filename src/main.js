@@ -16,6 +16,8 @@ import * as settings from './pages/settings.js';
 import * as report from './pages/report.js';
 import * as terms from './pages/terms.js';
 import * as privacy from './pages/privacy.js';
+import * as about from './pages/about.js';
+import * as contact from './pages/contact.js';
 import * as admin from './pages/admin.js';
 
 async function init() {
@@ -32,6 +34,8 @@ async function init() {
   registerRoute('/report', report);
   registerRoute('/terms', terms);
   registerRoute('/privacy', privacy);
+  registerRoute('/about', about);
+  registerRoute('/contact', contact);
   registerRoute('/admin', admin);
 
   // ── Restore persisted session ───────────────────────────────

@@ -1,0 +1,10 @@
+{
+  "name": "VictorMeet",
+  "short_name": "VictorMeet",
+  "description": "Random video and audio chat with people around the world.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#0052FF",
+  "icons": []
+}
