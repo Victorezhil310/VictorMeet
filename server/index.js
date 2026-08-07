@@ -32,7 +32,8 @@ const PORT = process.env.PORT || 3001;
 const ALLOWED_ORIGINS = [
   'http://localhost:3002',
   'https://victor-meet.vercel.app',
-  'https://victormedia.net',
+  'https://victormeet.app',
+  'https://www.victormeet.app',
 ];
 
 const corsOptions = {
